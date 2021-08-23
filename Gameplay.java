@@ -19,7 +19,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int ballPosY = 350;
     private int ballXDir = -1;
     private int ballYDir = 2;
-    private Graphics g;
     private MapGenerator map;
 
     public Gameplay() {
